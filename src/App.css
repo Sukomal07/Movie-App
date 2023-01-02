@@ -1,0 +1,68 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.App{
+  padding: 1.5rem;
+  background-color: #131720;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.movies{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.search_nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.h1{
+  background: linear-gradient(to right, #1e9600, #fff200, #ff0000);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.searchBar{
+  margin-right: 7%;
+}
+.searchBar .form{
+  background-color: #151f30;
+  width: 300px;
+  height: 43px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  border: 2px solid #d7c8c8a3;
+}
+.searchBar .form .searchInput{
+  all:unset;
+  font: 15px system-ui;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  padding: 0px 9px;
+}
+.searchButton {
+    all:unset;
+    font: 15px system-ui;
+    color: #fff;
+    padding: 10px 9px;
+    cursor: pointer;
+    font-weight: 500;
+}
+.searchButton:hover{
+    background-color: #dedfd5b3;
+    color: black;
+    border-radius: 0 8px 8px 0;
+}
+@media only screen and (max-width: 700px)  {
+  .search_nav{
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+}
